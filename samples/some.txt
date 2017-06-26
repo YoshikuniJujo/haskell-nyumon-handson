@@ -1,0 +1,2 @@
+I love Haskell!
+I love functional programming!
