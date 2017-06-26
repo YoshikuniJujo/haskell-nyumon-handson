@@ -1,2 +1,5 @@
 .stack-work/
 .*.swp
+*.hi
+*.o
+/bin/
