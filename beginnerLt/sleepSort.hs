@@ -5,5 +5,4 @@ main :: IO ()
 main = sleepSort . map read =<< getArgs
 
 sleepSort :: [Int] -> IO ()
-sleepSort =
-	mapM_ (\x -> forkIO $ threadDelay (x * 1000) >> print x)
+sleepSort = mapM_ (\x -> forkIO $ threadDelay (x * 1000) >> print x)
